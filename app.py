@@ -28,7 +28,7 @@ API_KEY = "ef238b94"
 # LOAD DATA
 # ---------------------------------------------------
 ratings = pd.read_csv(
-    r'C:\Users\dell\OneDrive\Desktop\jagadeesh\Movie Recommendation System project\data\u.data',
+    'u.data',
     sep='\t',
     names=['user_id', 'movie_id', 'rating', 'timestamp']
 )
@@ -42,7 +42,7 @@ movie_cols = [
 ]
 
 movies = pd.read_csv(
-    r'C:\Users\dell\OneDrive\Desktop\jagadeesh\Movie Recommendation System project\data\u.item',
+    'u.item',
     sep='|',
     encoding='latin-1',
     names=movie_cols
