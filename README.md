@@ -181,3 +181,5 @@ Aspiring Software Engineer | Data Science Enthusiast | Machine Learning Learner
 ## ⭐ Support
 
 If you found this project helpful, please consider giving it a star on GitHub.
+
+🌐 Live Demo: https://movie-recommendation-system-projects.streamlit.app/
